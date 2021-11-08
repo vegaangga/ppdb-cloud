@@ -227,4 +227,10 @@ $today = date("Y-m-d"); //now
       <meta http-equiv='refresh' content='1; url= mydata.php'/>  ";
       } else {
         echo "<div class='alert alert-warning'>
-              Gagal submit 
+              Gagal submit data. Silakan coba lagi nanti.
+          </div>
+          <meta http-equiv='refresh' content='3; url= mydata.php'/> ";
+      }
+    };
+
+?>
